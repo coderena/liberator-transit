@@ -1,4 +1,4 @@
-(defproject io.clojure/liberator-transit "0.3.1-TYR"
+(defproject io.clojure/liberator-transit "0.3.11"
   :description "Library to add Transit encoding support to Liberator"
   :url "https://github.com/sattvik/liberator-transit"
   :license {:name "Eclipse Public License"
@@ -11,4 +11,5 @@
                                   [ring/ring-mock "0.2.0"]
                                   [compojure "1.3.4"]]
                    :plugins [[com.jakemccrary/lein-test-refresh "0.9.0"]
-                             [lein-marginalia "0.8.0"]]}})
+                             [lein-marginalia "0.8.0"]
+                             [lein-ancient "0.6.7"]]}})
